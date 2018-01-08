@@ -1,0 +1,20 @@
+
+@charset "utf-8";
+
+/*레이아웃*/
+
+
+
+/*공통*/
+body{background:#f4f4f4;}
+header{padding:0 15px;}
+.bold{font-weight: bold;}
+.upper{text-transform: uppercase;}
+.none{display:none;}
+.both{clear:both;}
+.container{padding: 46px 15px;background:#f4f4f4;}
+.cover{position:fixed;top:0;left:0;right:0;bottom:0;background:#000;opacity:0.5;z-index:1000;}
+
+
+
+

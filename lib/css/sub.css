@@ -1,0 +1,224 @@
+select{display: none;}
+
+/*거래내역*/
+.account_list{position:relative;}
+.account_list .all{width:191px;position:absolute;top:11px;right:0px;font-size: 21px;line-height: 21px;}
+.account_list .all .select{color:#797979;width:100%;display:block;box-sizing: border-box;padding:0px 0 0px 50px;background: url(../../image/ico_down.png) no-repeat right 15px center;background-size: 11px 5px;}
+.account_list .all .select.down{background: url(../../image/ico_up.png) no-repeat right 15px center;background-size: 11px 5px;}
+.account_list .all ul{display:none;position:absolute;width:100%;top:31px;background: #fff;}
+.account_list .all ul li{padding: 25px 0;}
+.account_list .all ul li a{color:#797979;box-sizing: border-box;padding:0 0 0 50px;}
+.account_list .all ul li a.selected{color:#012368;}
+.container .account_list .lastest{border-bottom:none;padding-bottom: 61px;}
+.container .account_list .lastest table thead th{padding-top:24px;}
+.container .account_list .lastest table tr:nth-child(4n+1) th{font-family:'Noto Sans';color:#012368;font-size:20px;line-height:20px;text-align:left;padding-top:24px;font-weight: bold;}
+.container .account_list .lastest table tr:nth-child(4n){border-bottom: 1px solid #ccc;}
+.container .account_list .lastest table tr:nth-child(4n) th{padding-bottom: 20px;}
+.container .account_list .lastest table tr:nth-child(4n) td{padding-bottom: 20px;}
+.container .account_list .more{position: absolute;bottom:0;color:#797979;width:100%;display:block;padding-bottom:17px;text-align:center;background: url(../../image/btn_more.png) no-repeat center top 30px;background-size: 15px 7px;font-size:21px;line-height:21px;}
+
+/*상세*/
+.account_detail{position:relative;}
+.account_detail .all{width:191px;position:absolute;top:11px;right:0px;font-size: 21px;line-height: 21px;}
+.account_detail .all .select{color:#797979;width:100%;display:block;box-sizing: border-box;padding:0px 0 0px 50px;background: url(../../image/ico_down.png) no-repeat right 15px center;background-size: 11px 5px;}
+.account_detail .all .select.down{background: url(../../image/ico_up.png) no-repeat right 15px center;background-size: 11px 5px;}
+.account_detail .all ul{display:none;position:absolute;width:100%;top:31px;background: #fff;}
+.account_detail .all ul li{padding: 25px 0;}
+.account_detail .all ul li a{color:#797979;box-sizing: border-box;padding:0 0 0 50px;}
+.account_detail .all ul li a.selected{color:#012368;}
+.container .account_detail .lastest{border-bottom:none;padding-bottom: 61px;}
+.container .account_detail .lastest table thead th{padding-top:24px;}
+.container .account_detail .lastest table tr:nth-child(4n+1) th{font-family:'Noto Sans';color:#012368;font-size:20px;line-height:20px;text-align:left;padding-top:24px;font-weight: bold;}
+.container .account_detail .lastest table tr:nth-child(4n){border-bottom: 1px solid #ccc;}
+.container .account_detail .lastest table tr:nth-child(4n) th{padding-bottom: 20px;}
+.container .account_detail .lastest table tr:nth-child(4n) td{padding-bottom: 20px;}
+.container .account_detail .more{position: absolute;bottom:0;color:#797979;width:100%;display:block;padding-bottom:17px;text-align:center;background: url(../../image/btn_more.png) no-repeat center top 30px;background-size: 15px 7px;font-size:21px;line-height:21px;}
+
+/*보내기*/
+#send_coin .pop_head {width:100%;background:#012368;padding:25px 15px;box-sizing:border-box;}
+#send_coin .pop_head h1{color:#fff;text-align: center;font:normal 22px/22px "Nanum Gothic";}
+#send_coin .pop_head .close img{width:20px;}
+#send_coin .pop_head .close{display: block;float:right;margin-top: -20px;}
+#send_coin .pop_body{padding:65px 15px;box-sizing: border-box;background:#f4f4f4;}
+#send_coin .pop_body .quan,#send_coin .pop_body .maxquan{text-align:right;}
+#send_coin .pop_body .quan button[type="button"]{float:right;margin:12px 0 0 12px;background:#012368;color:#fff;font-size:15px;line-height: 15px;border-radius:5px;border:none;padding:6px 10px 5px;cursor:pointer;}
+#send_coin .pop_body input[type="text"]{width:100%;text-indent:15px;font-family:'Noto Sans','Naum Gothic';font-size:21px;border:0;border-bottom:1px solid #012368;background:transparent;padding-bottom:}
+#send_coin .pop_body .quan input[type="text"]{width:69%;border:none;text-align: right;} 
+#send_coin .pop_body .quan .right{width:160px;float:right;font-size: 22px;}
+#send_coin .pop_body .address input[type="text"]{width:80%;padding-bottom:15px;}
+#send_coin .pop_body .address .popup{float:right;display:block;}
+#send_coin .pop_body .qr{width:39px;height:39px;}
+#send_coin .pop_body .quan .btc{font:normal 22px/22px 'Noto Sans';color:#000;} 
+#send_coin .pop_body .quan .gray{font:normal 16px/16px 'Noto Sans';color:#797979;}
+#send_coin .pop_body .maxquan{font:normal 16px/16px 'Nanum Gothic';margin-bottom: 6px;}
+#send_coin .pop_body .maxquan .gray{margin-top:5px;}
+#send_coin .pop_body .maxquan .btc{font:normal 22px/22px 'Noto Sans';color:#000;}
+#send_coin .pop_body .account li{padding:17px 15px;background:#FFF;color:#797979;font:normal 21px/21px 'Noto Sans';}
+#send_coin .pop_body .account li a{color:#797979;}
+#send_coin .pop_body .account li a.selected{color:#012368;}
+#send_coin .pop_body .account .first{background: transparent;border-bottom: 1px solid #012368;background: url(../../image/ico_down.png) no-repeat right 15px center;background-size: 11px 5px;}
+#send_coin .pop_body .account .down{background: url(../../image/ico_up.png) no-repeat right 15px center;background-size: 11px 5px;}
+#send_coin .pop_body .account .selectbox{display:none;position:absolute;width:100%;z-index:2;}
+#send_coin .pop_body .fee li{padding:17px 15px;background:#FFF;color:#797979;font:normal 21px/21px 'Nanum Gothic';}
+#send_coin .pop_body .fee li a{color:#797979;}
+#send_coin .pop_body .fee li a.selected{color:#012368;}
+#send_coin .pop_body .fee .first{background: transparent;border-bottom: 1px solid #012368;background: url(../../image/ico_down.png) no-repeat right 15px center;background-size: 11px 5px;}
+#send_coin .pop_body .fee .down{background: url(../../image/ico_up.png) no-repeat right 15px center;background-size: 11px 5px;}
+#send_coin .pop_body .fee .selectbox{display:none;width:100%;z-index:2;position:absolute;}
+#send_coin .pop_body dl{padding:16px;}
+#send_coin .pop_body dl:after{content:'';display: block;clear:both;}
+#send_coin .pop_body dt{width:30%;float:left;padding:17px 0;text-align: left;font:normal 20px/20px "Nanum Gothic";color:#000000;letter-spacing:-1px;}
+#send_coin .pop_body dd{width:70%;float:left;position:relative;}
+#send_coin .pop_body dd .first{padding-bottom: 15px;font-size: 20px;text-indent: 15px;color:#797979;}
+#send_coin .pop_body .cancel{width:49%;margin-right:1%;background:#f4f4f4;padding:12px 0;color:#1e376d;border:none;border:1px solid #012368;border-radius:5px;font:normal 20px/20px 'Nauum Gothic';cursor:pointer;}
+#send_coin .pop_body input[type="submit"]{width:49%;margin-left:1%;padding:12px 0;background:#ff1800;color:#fff;border:none;border:1px solid #ff1800;border-radius:5px;font:normal 20px/20px 'Nanum Gothic';cursor:pointer;}
+#send_coin .pop_body .btn{padding:0 15px;margin-top:117px;}
+
+@media screen and (max-width: 460px){
+	#send_coin .pop_body .quan .right{width:160px;}
+	#send_coin .pop_body dt{font:normal 15px/15px "Nanum Gothic";}
+	#send_coin .pop_body .quan button[type="button"]{font-size: 10px;}
+	#send_coin .pop_body .quan .btc{font:normal 20px/20px 'Noto Sans';}
+	#send_coin .pop_body .account li{font:normal 14px/15px 'Noto Sans';}
+	#send_coin .pop_body .account li a{font:normal 14px/15px 'Noto Sans';}
+	#send_coin .pop_body input[type="text"]{font-size:14px;}
+	#send_coin .pop_body .fee li{font:normal 14px/15px 'Nanum Gothic';}
+	#send_coin .pop_body .fee li a{font:normal 14px/15px 'Nanum Gothic';}
+	#send_coin .pop_body .maxquan .btc{font:normal 17px/17px 'Noto Sans';}
+	#send_coin .pop_body .maxquan{font:normal 14px/14px 'Nanum Gothic'}
+}
+
+@media screen and (max-width: 400px){
+	#send_coin .pop_body dl{padding:16px 0;}
+	#send_coin .pop_body .quan .right{width:130px;}
+	#send_coin .pop_body .quan input[type="text"]{width:61%;}
+}
+
+/*받기*/
+#receive_coin .pop_head {width:100%;background:#012368;padding:25px 15px;box-sizing:border-box;}
+#receive_coin .pop_head h1{color:#fff;text-align: center;font:normal 22px/22px "Nanum Gothic";}
+#receive_coin .pop_head .close img{width:20px;}
+#receive_coin .pop_head .close{display: block;float:right;margin-top: -20px;}
+#receive_coin .pop_body{padding:65px 15px;box-sizing: border-box;background:#f4f4f4;}
+#receive_coin .pop_body .quan,#send_coin .pop_body .maxquan{text-align:right;}
+#receive_coin .pop_body .quan button[type="button"]{float:right;margin:12px 0 0 12px;background:#012368;color:#fff;font-size:15px;line-height: 15px;border-radius:5px;border:none;padding:6px 10px 5px;}
+#receive_coin .pop_body input[type="text"]{width:100%;text-indent:15px;font-family:'Noto Sans','Naum Gothic';font-size:21px;border:0;border-bottom:1px solid #012368;background:transparent;padding-bottom: 15px;}
+#receive_coin .pop_body .quan input[type="text"]{width:69%;border:none;text-align: right;} 
+#receive_coin .pop_body .quan .right{width:160px;float:right;font-size:22px;}
+#receive_coin .pop_body .address input[type="text"]{width:100%;padding-bottom:15px;}
+#receive_coin .pop_body .address .copy{float:right;display:block;width:70%;text-align: center;}
+#receive_coin .pop_body .address .copy button[type="button"]{width:53%;margin-top:30px;padding:12px 0;font:normal 20px/20px 'Nanum Gothic';color:#fff;background:#1e376d;border:none;cursor:pointer;border-radius: 5px;}
+#receive_coin .pop_body .qr{width:185px;display:block;height:185px;margin:53px auto 0;}
+#receive_coin .pop_body .quan .btc{font:normal 22px/22px 'Noto Sans';color:#000;} 
+#receive_coin .pop_body .quan .gray{font:normal 16px/16px 'Noto Sans';color:#797979;}
+#receive_coin .pop_body .account .first{background: transparent;border-bottom: 1px solid #012368;background: url(../../image/ico_down.png) no-repeat right 15px center;background-size: 11px 5px;padding-bottom: 15px;font-size:21px;text-indent:15px;color:#797979;}
+#receive_coin .pop_body .account .down{background: transparent;border-bottom: 1px solid #012368;background: url(../../image/ico_up.png) no-repeat right 15px center;background-size: 11px 5px;}
+#receive_coin .pop_body .account li{padding:17px 15px;background:#FFF;color:#797979;font:normal 21px/21px 'Noto Sans';}
+#receive_coin .pop_body .account li a{color:#797979;font:normal 21px/21px 'Noto Sans';}
+#receive_coin .pop_body .account li a.selected{color:#012368;}
+#receive_coin .pop_body dl{padding:16px;}
+#receive_coin .pop_body dl:after{content:'';display: block;clear:both;}
+#receive_coin .pop_body dt{width:30%;float:left;padding:17px 0;text-align: left;font:normal 20px/20px "Nanum Gothic";color:#000000;letter-spacing:-1px;}
+#receive_coin .pop_body dd{width:70%;float:left;position:relative;}
+#receive_coin .pop_body dd .selectbox{position:absolute;width:100%;z-index:2;display:none;}
+#receive_coin .pop_body .cancel{width:49%;margin-right:1%;background:#f4f4f4;padding:12px 0;color:#1e376d;border:none;border:1px solid #012368;border-radius:5px;font:normal 20px/20px 'Naunum Gothic';}
+#receive_coin .pop_body input[type="submit"]{width:49%;margin-left:1%;padding:12px 0;background:#ff1800;color:#fff;border:none;border:1px solid #ff1800;border-radius:5px;font:normal 20px/20px 'Naunum Gothic';}
+#receive_coin .pop_body .btn{padding:0 15px;margin-top:117px;text-align:center;}
+#receive_coin .pop_body .btn button[type="button"]{width:45%;border:none;border:1px solid #1e376d;color:#1e376d;border-radius:5px;padding:11px 0;font:normal 20px/20px "Nanum Gothic";background: #f4f4f4;cursor:pointer;}
+
+@media screen and (max-width: 460px){
+	#receive_coin .pop_body dt{font:normal 15px/15px "Nanum Gothic";}
+	#receive_coin .pop_body .quan button[type="button"]{font-size: 10px;}
+	#receive_coin .pop_body .quan .btc{font:normal 20px/20px 'Noto Sans';}
+	#receive_coin .pop_body .account li{font:normal 14px/15px 'Noto Sans';}
+	#receive_coin .pop_body .account li a{font:normal 14px/15px 'Noto Sans';}
+	#receive_coin .pop_body input[type="text"]{font-size:14px;}
+	#receive_coin .pop_body .fee li a{font:normal 14px/15px 'Nanum Gothic';}
+	#receive_coin .pop_body .maxquan .btc{font:normal 17px/17px 'Noto Sans';}
+	#receive_coin .pop_body .maxquan{font:normal 14px/14px 'Nanum Gothic'}
+}
+
+/*QR code pop-up*/
+.popupWrap{margin-top:15px;}
+.alert{width:90%;margin:0 auto;text-align:center;padding:0 15px 38px;box-sizing: border-box;position:relative;background:#fff;}
+.alert p{font:normal 21px/35px 'Nanum Gothic';padding:77px 0 64px 0;}
+.alert .btn button[type="button"]{width:49%;border:none;}
+.alert .btn button[type="button"].cancel{font:normal 20px/20px 'Naunum Gothic';padding:12px 0;border:1px solid #012368;margin-right:1%;cursor:pointer;border-radius: 5px;} 
+.alert .btn button[type="button"].confirm{font:normal 20px/20px 'Naunum Gothic';padding:12px 0;background:#1e376d;color:#fff;border:1px solid #012368;cursor:pointer;border-radius: 5px;} 
+.alert img{width:20px;position: absolute;right:15px;top:15px;}
+
+/*계정추가*/
+#account_add .pop_head {width:100%;background:#012368;padding:25px 15px;box-sizing:border-box;}
+#account_add .pop_head h1{color:#fff;text-align: center;font:normal 22px/22px "Nanum Gothic";}
+#account_add .pop_head .close img{width:20px;}
+#account_add .pop_head .close{display: block;float:right;margin-top: -20px;}
+#account_add .pop_body{padding:65px 15px;box-sizing: border-box;background:#f4f4f4;}
+#account_add .pop_body dl{padding:16px;}
+#account_add .pop_body dl:after{content:'';display: block;clear:both;}
+#account_add .pop_body dt{width:30%;float:left;padding:17px 0;text-align: left;font:normal 20px/20px "Nanum Gothic";color:#000000;letter-spacing:-1px;}
+#account_add .pop_body dd{width:70%;float:left;}
+#account_add .pop_body .accountName input[type="text"]{width:100%;padding-bottom:15px;}
+#account_add .pop_body input[type="text"]{width:100%;text-indent:15px;font-family:'Noto Sans','Naum Gothic';font-size:21px;border:0;border-bottom:1px solid #012368;background:transparent;}
+#account_add .pop_body .btn button[type="button"]{width:49%;border:none;border:1px solid #1e376d;color:#1e376d;border-radius:5px;padding:11px 0;font:normal 20px/20px "Nanum Gothic";background: #f4f4f4;cursor:pointer;}
+#account_add .pop_body .btn button[type="button"].add{background:#012368;color:#fff;margin-left:1%;}
+#account_add .pop_body p{width:70%;margin:0 0 259px 0;padding:3px 0 0 25px;color:#ff1800;font:normal 17px/17px "Nanum Gothic";background: url(../../image/ico_error.png) no-repeat left center;background-size:20px;box-sizing: border-box;float:right;}
+
+@media screen and (max-width: 460px){
+	#account_add .pop_body dt{font:normal 15px/15px "Nanum Gothic";}
+	#account_add .pop_body input[type="text"]{font-size:14px;}
+	#account_add .pop_body p{width:70%;margin:0 0 257px 0;padding:4px 0 3px 25px;color:#ff1800;font:normal 13px/13px "Nanum Gothic";background: url(../../image/ico_error.png) no-repeat left center;background-size:20px;box-sizing: border-box;float:right;}
+}
+
+/*지갑설정*/
+#config_wallet .pop_head {width:100%;background:#012368;padding:25px 15px;box-sizing:border-box;}
+#config_wallet .pop_head h1{color:#fff;text-align: center;font:normal 22px/22px "Nanum Gothic";}
+#config_wallet .pop_head .close img{width:20px;}
+#config_wallet .pop_head .close{display: block;float:right;margin-top: -20px;}
+#config_wallet .pop_body{padding:65px 15px;box-sizing: border-box;background:#f4f4f4;}
+#config_wallet .pop_body dl{background:#fff;padding:22px 16px;}
+#config_wallet .pop_body dt{color:#012368;font:normal 20px/20px "Nanum Gothic";letter-spacing:-1px;font-weight: bold;}
+#config_wallet .pop_body dd{color:#797979;font:normal 20px/20px "Nanum Gothic";padding:34px 0 0 0;position:relative;}
+#config_wallet .pop_body .firmWare{color:#012368;letter-spacing:-1px;position:absolute;bottom:0;right:0;padding-right:18px;background: url(../../image/firm_detail.png) no-repeat right center;background-size: 9px 15px;}
+#config_wallet .pop_body .checkbox{background:#f4f4f4;}
+#config_wallet .pop_body .checkbox dt{color:#000;font-weight: normal;margin-top:71px;}
+#config_wallet .pop_body .checkbox dt:first-child{margin-top:30px;}
+#config_wallet .pop_body .checkbox dd{border-bottom:2px solid #012346;}
+#config_wallet .pop_body .checkbox dd label{width:33%;display:inline-block;text-align:center;padding-bottom:10px;font-size: 20px;}
+#config_wallet .pop_body input[type="radio"]{display:none;}
+#config_wallet .pop_body input[type="radio"]:checked +label{font-weight:bold;border-bottom:5px solid #012368;color:#012368;font-family:'Noto Sans','Naunum Gothic';}
+#config_wallet .pop_body .font0{font-size:0;}
+#config_wallet .pop_body .font0 span{width:33%;font-size: initial;}
+#config_wallet .pop_body .font0 span:last-child{width:34%;}
+#config_wallet .pop_body .font0 span:last-child label{width:34%;}
+
+@media screen and (max-width: 460px){
+	#config_wallet .pop_body dt{font:normal 15px/15px "Nanum Gothic"}
+	#config_wallet .pop_body dd{font:normal 15px/15px "Nanum Gothic"}
+	#config_wallet .pop_body .checkbox dd label{font-size:15px;}	
+}
+
+/*펌웨어 업그레이드*/
+#firmWare .pop_head {width:100%;background:#012368;padding:25px 15px;box-sizing:border-box;}
+#firmWare .pop_head h1{color:#fff;text-align: center;font:normal 22px/22px "Nanum Gothic";}
+#firmWare .pop_head .close img{width:20px;}
+#firmWare .pop_head .close{display: block;float:right;margin-top: -20px;}
+#firmWare .pop_body{padding:65px 15px;box-sizing: border-box;background:#f4f4f4;}
+#firmWare .firmWare_wrap{text-align:center;background:#fff;padding:107px 15px 73px ;}
+#firmWare .firmWare_wrap p{font:Normal 20px/30px 'Nanum Gothic';margin-bottom: 169px;}
+#firmWare .firmWare_wrap label{font-size: 19px;color:#012368;}
+#firmWare .firmWare_wrap .btn{margin-top: 68px;}
+#firmWare .firmWare_wrap .btn button[type="button"]{padding:13px 0 12px 0;text-align: center;border: 0;border-radius:5px;width:49%;color:#fff;font:normal 20px/20px 'Nanum Gothic';}
+#firmWare .firmWare_wrap .btn .btn_wallet{margin-left: 1%;background:#797979;}
+#firmWare .firmWare_wrap .btn .btn_firm{background:#012368;}
+#firmWare .firmWare_wrap input[type="checkbox"]{display:none;}
+#firmWare .firmWare_wrap label{background:url(../../image/check_off.png) no-repeat left center;background-size: 18px 18px;padding-left: 26px;}
+#firmWare .firmWare_wrap input[type="checkbox"]:checked +label{background: url(../../image/check_on.png) no-repeat left center;background-size: 18px 18px;}
+#firmWare .another_config{color:#1e376d;font-size: 19px;display:block;text-align: right;padding-right: 23px;background:url(../../image/another.png) no-repeat right center;background-size: 8px 15px;margin-top: 25px;}
+@media screen and (max-width: 460px){
+	#firmWare .firmWare_wrap p{font:Normal 15px/20px 'Nanum Gothic';}
+	#firmWare .firmWare_wrap label{font-size:15px;}
+	#firmWare .firmWare_wrap .btn button[type="button"]{font-size:15px;}
+	#firmWare .firmWare_wrap p{margin-bottom: 134px;}
+	#firmWare .firmWare_wrap{padding:77px 15px 53px;}
+	#firmWare .another_config{font-size:17px;}
+}
