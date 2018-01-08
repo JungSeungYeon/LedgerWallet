@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<title>hardware wallet</title>
+	<link rel="stylesheet" href="lib/css/reset.css">
+	<link rel="stylesheet" href="lib/css/common.css">
+	<link rel="stylesheet" href="lib/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<script type="text/javascript" src="lib/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src ="lib/js/main.js"></script>
+</head>
+<body>
+	<div class="darkWrap"></div>
+	<header>
+		<a href="#" id="id_sideMenu"><img src="image/btn_menu.png" class="btn_menu" alt="사이드메뉴"></a>
+		<a href="#" id="id_config"><img src="image/config.png" alt="설정" class="config"></a>
+		<div class="sideMenu">
+			<div class="appName">
+				hyundaipay kasse
+				<a href="#"><img src="image/btn_close.png" alt="닫기버튼" class="btnClose"></a>
+			</div>
+			<ul>
+				<li id="id_addAcc"><a href="#">계정추가</a></li>
+				<li id="id_address"><a href="#">주소록</a></li>
+				<li id="config">
+					<a href="#">설정</a>
+				</li>
+				<li>
+					<a href="#" id="id_help" class="help">도움말</a>
+					<ul>
+						<li><a href="#" id="id_info">정보</a></li>
+						<li><a href="#" id="id_service">고객센터</a></li>
+						<li><a href="#" id="id_prob">문제신고하기</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div id="id_logOut"><a href="#" class="logOut">로그아웃</a></div>
+		</div>
+		<h1><a href="">hyundai pay <span class="fontS27">kasse</span></a></h1>
+		<div id="id_nowCoin">
+			<div>0.001 btc <span class="upper krw">40,000 krw</span></div>
+			<a href="" id="id_reload"><img src="image/reload.png" alt="reloading" class="reload"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#" id="id_myAccount">내 계정</a></li>
+				<li><a href="#" id="id_send">보내기</a></li>
+				<li><a href="#" id="id_receive">받 기</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="containerWrap">
+		<div class="container">
+			<a href="#" id="id_myAcc_detail">
+				<dl class="myAccount_folder">
+					<dt>My account</dt>
+					<dd>
+						<span class="btc upper">0.001 btc</span><span class="upper gray">40,000krw
+					</dd>
+
+				</dl>
+			</a>
+			<a href="#" id="id_addAcc" class="addAcc"><img src="image/addAccount.png" alt="계정추가"></a>
+			<section>
+				<h2>최근 거래내역</h2>
+				<a href="#" id="id_allList">모든거래내역</a>	
+				<div class="lastest">
+					<table cellpadding="14">
+						<tbody>
+							<tr><th colspan="2">My account</th></tr>
+							<tr>
+								<th>거래일시</th>
+								<td>2017.08.08 오전 10시 32분</td>
+							</tr>
+							<tr>
+								<th>지갑주소</th>
+								<td><span class="from address">from</span>sfesfesefefe</td>
+							</tr>
+							<tr>
+								<th>거래수량</th>
+								<td><span class="from checking">확인중</span><span class="from quantity">btc <span class="modification">+</span> 0.0001</span></td>
+								
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!-- //containerWrap -->
+</body>
+</html>
